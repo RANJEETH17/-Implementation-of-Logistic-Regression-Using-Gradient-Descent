@@ -15,11 +15,11 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 5. Define a function to plot the decision boundary and predict the Regression value
 
 ## Program:
-
+```
 /*
 Program to implement the the Logistic Regression Using Gradient Descent.
-Developed by: Ranjeeth B K
-RegisterNumber:  212222040132
+Developed by: KOUSALYA A.
+RegisterNumber:  212222230068
 */
 import pandas as pd
 import numpy as np
@@ -69,7 +69,7 @@ print("Actual:\n",y.values)
 xnew=np.array([[0,87,0,95,0,2,78,2,0,0,1,0]])
 y_prednew=predict(theta,xnew)
 print("Predicted Result:",y_prednew)
-
+```
 
 
 ## Output:
@@ -81,3 +81,4 @@ print("Predicted Result:",y_prednew)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
+
